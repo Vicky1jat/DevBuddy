@@ -6,7 +6,7 @@ DevBuddy is a modern, full-stack AI-powered assistant built to help developers u
 
 | Hero | Editor & Interaction | Footer |
 |------|----------------------|--------|
-| ![Hero](asset/hero.png) | ![Editor](asset/middle.png) | ![Footer](asset/footer.png) |
+| ![Hero](asset/hero.png.png) | ![Editor](asset/middle.png.png) | ![Footer](asset/footer.png.png) |
 
 
 
