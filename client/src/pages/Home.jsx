@@ -51,7 +51,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch(`/api/ask`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prompt }),
@@ -83,7 +83,7 @@ export default function Home() {
     setOutput('');
 
     try {
-      const res = await fetch('/api/run-code', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/run-code`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ languageId, sourceCode: prompt, stdin: '' }),
