@@ -3,9 +3,11 @@
 DevBuddy is a modern, full-stack AI-powered assistant built to help developers understand code, solve DSA problems, and run code in multiple languages—all in one elegant interface.
 
 ### 🖼 UI Preview
+
 | Hero | Editor & Interaction | Footer |
 |------|----------------------|--------|
 | ![Hero](asset/hero.png) | ![Editor](asset/middle.png) | ![Footer](asset/footer.png) |
+
 
 
 ---
