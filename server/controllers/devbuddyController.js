@@ -27,7 +27,7 @@ export const askGPT = async (req, res) => {
     const { data } = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
-        model: 'deepseek/deepseek-chat:free',
+        model: 'openai/gpt-3.5-turbo',
         messages: [
           {
             role: 'system',
